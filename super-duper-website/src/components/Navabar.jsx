@@ -2,19 +2,10 @@ import logo from "../assets/react.svg";
 
 const Navabar = () => {
   return (
-    <div className="h-16 w-ful flex flex-row justify-between text-xl">
+    <div className="z-10 h-16 w-ful flex flex-row justify-between text-xl">
       <ul className="gap-10 ml-10 mt-10">
         <li>
-          <p>
-            Yudhajit Chowdhury{" "}
-            <span>
-              <img
-                className="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
-                src={logo}
-                alt=""
-              />
-            </span>
-          </p>
+          <p>I'am Yudhajit Chowdhury!</p>
         </li>
         <li></li>
       </ul>
